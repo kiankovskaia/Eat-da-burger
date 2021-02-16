@@ -22,8 +22,8 @@ router.get("/", function (req, res) {
 router.post("/api/burgers", function (req, res) {
   burger.insertOne(
     // set status for table
-    ["name", "devoured"],
-    [req.body.name, req.body.devoured],
+    ["burger_name", "devoured"],
+    [req.body.burger_name, req.body.devoured],
     function (result) {
       // Send back Id
       res.json({ id: result.insertId });
