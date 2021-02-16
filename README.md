@@ -19,7 +19,7 @@ To install the app users should download the repository, install the required de
 
 ## Usage
 
-After the packages are installed, application will be invoked by running the `nodemon` command in the terminal in the root folder of the repository.
+After the packages are installed, application will be invoked by running the `npm start` command in the terminal in the root folder of the repository.
 
 ## License
 

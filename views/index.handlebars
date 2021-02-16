@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <img width="300px" src="https://media.istockphoto.com/vectors/burger-with-crown-logo-illustration-vector-id1004591262?b=1&k=6&m=1004591262&s=612x612&w=0&h=jRYqO_0-aP30ZJxAvc48mQnRgLwfVIxT1sZniPRujLI=" class="burger-image" alt="Burger"/>
+            <img width="300px" style="border-radius: 50px; margin-top:30px" src="https://image.freepik.com/free-vector/burger-illustration_9845-5.jpg" class="burger-image" alt="Burger"/>
             <h1 style="color:black; text-align: center">Eat-Da-Burger</h1>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6 text-center">
-            <h2 style="color:black">Time To Eat!</h2>
+            <h2>Time To Eat!</h2>
             <ul>
                 {{#each burgers}}
                 {{#unless devoured}}
@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-6 text-center">
 
-            <h2 style="color:black">Did you like it?</h2>
+            <h2>Did you like it?</h2>
             <ul>
                 {{#each burgers}}
                 {{#if devoured}}
@@ -36,15 +36,9 @@
         <form class="create-form">
 
             <div class="form-group">
-                <label style="color:black" for="bn">Burger Name:</label>
-                <input type="text" id="bn" name="name">  <button type="submit"> Create! </button>
+                <label style="color:black" for="bn">Enter new Burger:</label>
+                <input type="text" id="bn" name="name"> <button class="btnstyle" type="submit"> Create! </button>
             </div>
-
-            {{!-- <div style="color: black" class="form-group">
-                <label style="color:black" for="devour">Please select:</label><br>
-                <input style="color:black" type="radio" name="devoured" value="0"> Haven't tried this one yet <br>
-                <input style="color:black" type="radio" name="devoured" value="1"> I've already tried this one <br>
-            </div> --}}
            
         </form>
     </div>
