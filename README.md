@@ -1,5 +1,6 @@
 # Eat-da-burger
 
+[Deployed Application]()
 
 ## Description
 
@@ -41,4 +42,4 @@ Contact me for additional questions or to say "Hi":
 
 The following video demonstrates the application functionality:
 
-![DEMO](demo.gif)
+![DEMO](public/assets/demo.jpg)
