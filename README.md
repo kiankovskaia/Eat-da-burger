@@ -42,4 +42,4 @@ Contact me for additional questions or to say "Hi":
 
 The following video demonstrates the application functionality:
 
-![DEMO](public/assets/demo.jpg)
+![DEMO](public/assets/demo.JPG)
